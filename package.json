@@ -1,0 +1,36 @@
+{
+  "name": "pdf-page-extractor",
+  "version": "1.0.0",
+  "description": "Web application to extract specific pages from a PDF file",
+  "main": "server.js",
+  "scripts": {
+    "start": "webpack serve --mode development --open",
+    "server": "node server.js"
+  },
+  "keywords": [
+    "pdf",
+    "page",
+    "extractor",
+    "web",
+    "application"
+  ],
+  "author": "Chandra Sekhar",
+  "license": "MIT",
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "dicer": "^0.3.1",
+    "express": "^4.17.1",
+    "multer": "^1.4.5-lts.1",
+    "pdf-lib": "^1.17.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
